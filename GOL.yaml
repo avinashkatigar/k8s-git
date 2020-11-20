@@ -7,7 +7,7 @@ spec:
     containers:
       - image: qualitythought/gameoflife:07112020
         name: GOL
-        port:
+        ports:
           - containerPort: 8080
 
         
