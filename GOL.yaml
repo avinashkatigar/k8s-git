@@ -2,11 +2,11 @@
 apiVersion: v1 
 kind: Pod
 metadata: 
-  name: gol-new
+  name: kaju
 spec:
     containers:
       - image: qualitythought/gameoflife:07112020
-        name: GOL
+        name: avinash
         ports:
           - containerPort: 8080
 
