@@ -1,0 +1,14 @@
+---
+apiVersion: v1 
+kind: Pod
+metadata: 
+  name: gol-new
+spec:
+    containers:
+      - image: qualitythought/gameoflife:07112020
+        name: GOL
+        port:
+          - containerPort: 8080
+
+        
+  
